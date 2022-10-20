@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;700&family=PT+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;700&family=Oswald:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* RECT. NEGRO */
+
+header {
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    vertical-align: middle;
+}
+
+header img {
+    float: left;
+    padding: 7% 0% 0% 2%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 900;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 90px;
+}
+
+h3 {
+    color: rgb(49, 117, 194);
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 190px;
+}
+
+#boxing {
+    vertical-align: middle;
+    padding-top: 85px;
+}
+
+/* FIN RECT NEGRO */
+
+/* NAVEGACION */
+
+nav {
+    text-align: center;
+}
+
+
+.menu a:hover {
+    background-color: rgba(127, 197, 255, 0.5);
+    color: #000000;
+    transition: ease-in .5s;
+    padding: 10px 20px;
+
+}
+
+nav .active {
+    color:rgb(7, 255, 222);
+  
+
+
+    
+  }
+
+
+hr {
+    margin: auto;
+    margin-top: 5%;
+    width: 80vw;
+}
+
+ul { 
+    padding-left: 6%;
+    margin: auto;
+
+}
+
+ul, li {
+    display:inline-block;
+    margin: 3px;
+    list-style: none;
+}
+
+a {
+color: aliceblue;
+text-decoration: none;
+padding: 10px 20px;
+}
+
+
+
+
+
+/* FIN NAVEGACIÓN */
+
+/* CONTENIDO INDEX */
+
+body {
+    background-color: #4C6793;
+}
+
+
+/* SECCION INDEX SOBRE MÍ */
+
+.sobremi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    background-color: #4C6793;
+    }
+    
+    .sobremi-info {
+      grid-column: 1/10;
+      padding: 1em;
+      margin-right: 20;
+    }
+    
+    .sobremi-info p {
+      color:#ffffff
+    }
+    
+    .sobremi-info h2 {
+    font-size: 2em;
+    color: rgba(184, 209, 219, 0.966);
+    
+    }
+    
+    .partedivisoria {
+    height: 4px;
+    width:  65px;
+    background-color: rgb(29, 240, 240);
+    margin-top: 6px;
+    margin-bottom: 2em;
+    }
+    
+    .sobremi p {
+    margin-bottom: 1em;
+    
+    }
+
+
+/* FIN SECCION INDEX SOBRE MÍ */
+
+/* INICIO SECCION EXPERIENCIA LABORAL  */
+
+span {
+    color: #00fff2b9;
+
+ }
+
+ .brand span {
+    color: rgb(0, 204, 255);
+
+}
+
+/* FIN SECCION EXPERIENCIA LABORAL  */
+
+
+
+
+
+main {
+    margin-top: 6%;
+    padding-left: 1.5%;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-weight: 549;
+}
+
+span {
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: large;
+}
+
+#right {
+    margin-bottom: 20px;
+}
+
+#left {
+    text-align: left;
+    justify-content: left;
+}
+
+/* FIN CONTENIDO INDEX */
+
+
+/* EXPERIENCIAS LABORALES  ////////////*/
+
+#pwork {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80vw;
+}
+
+.pwork {
+    margin-bottom: 40px;
+}
+
+h4 { 
+    font-weight: 500;
+    font-size: larger;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Oswald', sans-serif; 
+    
+}
+
+/* CONTACTO ///////////*/
+
+form {
+    width: 80%;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color:rgb(231, 227, 227);
+    border: 5px solid rgb(0, 0, 0);   
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Oswald', sans-serif; 
+}
+
+label{
+    font-size:20px;
+}
+
+input{
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea{ 
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    resize:vertical; 
+    min-height:120px; 
+}
+
+.boton{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.boton2{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.boton:hover{
+    color:#0df521;
+}
+
+.boton2:hover{
+    color:#e00c0c;
+}
+
+/* FIN CONTACTO ////////// */
+
+/* FOOTER ////////////////// */
+
+footer {
+    background: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+#contacto {
+    height: 1px;
+}
+
+
+#contacto li {
+    font-size: 18px;
+    margin: 6px;
+    
+}
+
+#contacto li img {
+    padding-top: 3px;
+}
+
+#contacto li a:link{
+    color: rgb(162, 162, 255);
+    text-decoration: none;
+}
+
+#contacto li a:visited {
+    color: rgb(155, 155, 223);
+    text-decoration: none;
+}
+
+
+
+/* FIN FOOTER ///////// */
+

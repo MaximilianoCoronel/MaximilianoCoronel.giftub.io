@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV RESPONSIVE MAXIMILIANO CORONEL</title>
+    <link rel="stylesheet" href="../style.css"> 
+    <link rel="stylesheet" href="../style cel.css" media="screen and (min-device-width: 300px")>
+</head>
+
+<body>
+    <header id="up">
+        <figure><img src="../img/cvimagen.png" alt="" width="180px"></figure>
+        <h1>Maximiliano Coronel</h1>
+        <h3>CUIL: 20-43095160-3</h3>
+    </header>
+    
+        <!-- Barra Navegación CV -->
+        <nav>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="/index.html">Perfil Personal</a></li>
+                    <li><a href="/pages/work.html">Experiencias Laborales</a></li>
+                    <li><a href="/pages/edu.html">Educación</a></li>
+                    <li><a class="active"  href="#">Contacto</a></li></ul>
+            </nav>
+        <!-- Fin Barra Navegación CV -->
+
+    <main id=>
+        <h2>Contactarme</h2>
+        <section>
+            <form action="../procesar_formulario.php" method="post" enctype="application/x-www-form-urlencoded">
+                <label for="nombre">ASUNTO</label>
+                <input type="text" name="nombre" placeholder="Escriba el asunto.." required>
+                
+                <label for="email">E-MAIL</label>
+                <input type="email" name="email" placeholder="Su correo electrónico.." required>
+                
+                <label for="mje">MENSAJE</label>
+                <textarea name="mje" placeholder="Cuerpo del mensaje.." cols="30" rows="10"></textarea>
+                
+                <button type="submit" class="boton">ENVIAR</button>
+                <button type="reset" class="boton2">BORRAR</button>
+            </form>
+    </main>
+    
+    <footer>
+        <ul id="contacto">
+            <li><a href="https://wa.me/5491123001893"><img src="../img/wpp.png" alt="Logo de Whatsapp" style="width: 16px;"> Contacto vía Whatsapp</a></li>
+            <li><a href="https://www.linkedin.com/in/maximiliano-coronel-920472254/"><img src="../img/linked.png" alt="Logo de LinkedIn" style="width: 16px;"> Perfil de LinkedIn</a></li>
+            <li><a href="/pages/contacto.html"><img src="../img/mail.png" alt="Correo Electrónico" style="width: 16px;"> Envíame un e-mail</a></li>
+            <li><a href="#up"><img src="../img/up.png" alt="Flecha hacia arriba" style="width: 16px;"> Volver arriba</a></li>
+        </ul></footer>
+    </body>
+    </html>
